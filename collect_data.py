@@ -5,7 +5,7 @@ import cv2
 import urllib
 import numpy as np
 
-classifier = cv2.CascadeClassifier(r"D:\Class lectures\AI ML Internship\Facedetection system\haarcascade_frontalface_default.xml")
+classifier = cv2.CascadeClassifier(r"haarcascade_frontalface_default.xml")
 
 url = "http://192.168.29.90:8080/shot.jpg"
 
